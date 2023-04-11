@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(140, 140, 140);
+    background-image: url(./assets/tavern-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+
+header {
+    display: flex;
+}
+
+#dragonLogo {
+    width: 100px;
+    height: 100px;
+    margin: 1.5em 0 0 1.5em;
+}
+
+header h1 {
+    color: rgb(153, 0, 0);
+    font-size: 7em;
+    text-shadow: 
+    -1px -1px 0 gold,
+    1px -1px 0 gold,
+    -1px 1px 0 gold,
+    1px 1px 0 gold;
+    margin: .17em 0 0 .25em;
+}
+
+header li {
+    display: inline-block;
+    position: relative;
+    left: 22.5em;
+    top: 2.5em;
+    margin: 0 1em 0 0;
+    letter-spacing: .025em;
+    font-size: 1.25em;
+    background-color: gold;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    padding: .5em .05em .5em .05em;
+}
+
+header li a:hover {
+    background-color: rgba(255, 215, 0, .5);
+}
+
+#storeCart {
+    height: 30px;
+    width: 30px;
+    background: gold;
+}
+
+#search {
+    width: 20em;
+    height: 3em;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2.5px 2.5px 15px 0;
+}
+
+/* Nav Bar */
+
+#dropNav {
+    background-color: rgba(255, 215, 0, .5);
+    margin: 0 29.5em 0 25em;
+    border-radius: 15px;
+}
+
+#dropNav li {
+    display: inline-block;
+    margin: 0 2.5em 0 0;
+    font-size: 1.10em;
+    letter-spacing: .025em;
+}
+
+#dropNav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Section */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 12.5em;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 2.6em 3em;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: blue;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card p {
+    padding: .5em;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card:hover {
+    background-color: rgba(62, 62, 62, 1);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease; 
+}
+
+#image-1 {
+    background-image: url(./assets/best-sellers2.jpg);
+}
+
+#image-2 {
+    background-image: url(./assets/board-games4.jpg);
+}
+
+#image-3 {
+    background-image: url(./assets/card-games.jpg);
+}
+
+#image-4 {
+    background-image: url(./assets/roleplaying-games.jpg);
+}
+
+#image-5 {
+    background-image: url(./assets/miniatures.jpg);
+}
+
+#image-6 {
+    background-image: url(./assets/upcoming-events2.jpg);
+}
+
+#news {
+    display: block;
+    background-color: rgba(140, 140, 140, .5);
+    text-align: center;
+    border-radius: 15px;
+    padding-top: .5em;
+    margin: 0 15em 0 15em;
+}
+
+#news ul li {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+#news p {
+    font-size: 20px;
+    padding: 0 1em 0 1em;
+}
+
+#socialIcon {
+    width: 50px;
+    height: 40px;
+}
+
+footer {
+    background-color: rgb(140, 140, 140);
+    text-align: center;
+    border-radius: 15px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 .75em 0 0;
+}
